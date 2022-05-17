@@ -5,105 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/41e39eae2a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Welcome to my GitHub Projects</title>
+    <title>That´s me</title>
 </head>
 
 <body>
+    <i class="fa fa-moon-o"></i>
+    <input id="slider" class="customSlider" type="checkbox">
+    <label for="slider"></label>
 
-    <!-- All content -->
-    <div class="container py-5">
-        <div class="row text-center text-white mb-5">
-            <div class="col-lg-7 mx-auto">
-                <h1 class="display-4">Welcome to <br> my GitHub Projects <i class="fab fa-github"></i></h1>
-            </div>
+    <div class="wrapper">
+        <div class="top-icons">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <i class="fas fa-ellipsis-v"></i>
+            <i class="far fa-heart"></i>
         </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <!-- List group-->
-                <ul class="list-group shadow">
 
-                    <!-- list group item-->
-                    <a href="https://t.me/acolor_bot">
-                        <li class="list-group-item" id="elem1">
-                            <!-- Custom content-->
-                            <div class="media align-items-lg-center flex-column flex-lg-row p-3">
-                                <div class="media-body order-2 order-lg-1 p-2 mt-4">
-                                    <h5 class="mt-0 font-weight-bold mb-2">BOT aColor</h5>
-                                    <p class="font-italic text-muted mb-0 small">
-                                        Este servicio ofrece la posibilidad de pasar a color tus viejas fotos en blanco y
-                                        negro.
-                                    </p>
-                                    <button class="btn btn-primary btn-lg btn-block mt-4" type="submit"><i class="fab fa-telegram-plane" aria-hidden="true"></i>
-                                        Acceder a servicio</button>
+        <div class="profile">
+            <img src="https://avatars.githubusercontent.com/u/39081252?v=4" class="thumbnail">
+            <div class="check"><i class="fas fa-check"></i></div>
+            <h3 class="name">Daniel Moreno</h3>
+            <p class="title">Full stack Developer</p>
+            <button type="button" class="btn" onclick="window.location.href='projects.html'"><b>Proyectos</b></button>
+        </div>
 
-                                </div><img src="res/bot_acolor.jpg" alt="AcolorBOT" width="500"
-                                    class="ml-lg-5 order-1 order-lg-2 border p-2 rounded-circle">
-                            </div> <!-- End -->
-                        </li> <!-- End -->
-                    </a>
+        <div class="social-icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/dani.m0reno/"><i class="fab fa-instagram"></i></a>
+            </div>
 
-                    <!-- list group item-->
-                    <a href="https://t.me/cat_detective_bot">
-                        <li class="list-group-item" id="elem2">
-                            <!-- Custom content-->
-                            <div class="media align-items-lg-center flex-column flex-lg-row p-3">
-                                <div class="media-body order-2 order-lg-1 p-2 mt-4">
-                                    <h5 class="mt-0 font-weight-bold mb-2">BOT CatDetective</h5>
-                                    <p class="font-italic text-muted mb-0 small">
-                                        Este bot te permitirá rastrear las posibles huellas que deje un usuario a través
-                                        de internet.
-                                    </p>
-                                    <button class="btn btn-primary btn-lg btn-block mt-4" type="submit"><i class="fab fa-telegram-plane" aria-hidden="true"></i>
-                                        Acceder a servicio</button>
+            <div class="icon">
+                <a href="https://github.com/DaniM0reno"><i class="fab fa-github"></i></i></a>
+            </div>
 
-
-                                </div><img src="res/bot_cat_detective.jpg" alt="CatDetectiveBOT" width="200"
-                                    class="ml-lg-5 order-1 order-lg-2 border p-2 rounded-circle">
-                            </div> <!-- End -->
-                        </li> <!-- End -->
-                    </a>
-
-                </ul> <!-- End -->
+            <div class="icon">
+                <a href="https://t.me/DaM995"><i class="fab fa-telegram"></i></a>
             </div>
         </div>
     </div>
-    <footer>
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 bg-dark text-white">© 2021 Copyright:
-            <a href="https://github.com/DaniM0reno" class="btn btn-secondary"> github.com/DaniM0reno</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <style>
-        body {
-            background: linear-gradient(to right, #c04848, #480048);
-            min-height: 100vh
-        }
 
-        .text-gray {
-            color: #aaa
-        }
-
-        img {
-            height: 16rem;
-            width: 16rem;
-        }
-
-        a:link {
-            text-decoration: none;
-            color: black;
-        }
-        li{
-            margin:20px
-        }
-
-        .display-4{
-            font-family: 'Font Awesome 5 Brands';
-        }
-    </style>
+    <div class="concept">© Copyright
+        <a href="https://github.com/DaniM0reno" target="_blank">
+            DaniM0reno</a>. All Rights Reserved
+    </div>
+    </div>
 </body>
 
 </html>
