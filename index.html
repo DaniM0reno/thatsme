@@ -2,54 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/41e39eae2a.js" crossorigin="anonymous"></script>
-    <title>That´s me</title>
+    <meta charset="utf-8">
+    <title>DanielM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <i class="fa fa-moon-o"></i>
-    <input id="slider" class="customSlider" type="checkbox">
-    <label for="slider"></label>
-
     <div class="wrapper">
-        <div class="top-icons">
-            <i class="fas fa-long-arrow-alt-left"></i>
-            <i class="fas fa-ellipsis-v"></i>
-            <i class="far fa-heart"></i>
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-2" src="https://avatars.githubusercontent.com/u/39081252?v=4" alt="Image">
+                <h1 class="font-weight-bold">Daniel Moreno</h1>
+                <p class="mb-4">
+                    Lorem at sit dolor dolores sed diam justo
+                </p>
+                <div class="d-flex justify-content-center mb-5">
+                    <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary mr-2" href="https://github.com/DaniM0reno"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-primary mr-2" href="https://www.instagram.com/dani.m0reno/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
         </div>
 
-        <div class="profile">
-            <img src="https://avatars.githubusercontent.com/u/39081252?v=4" class="thumbnail">
-            <div class="check"><i class="fas fa-check"></i></div>
-            <h3 class="name">Daniel Moreno</h3>
-            <p class="title">Full stack Developer</p>
-            <button type="button" class="btn" onclick="window.location.href='projects.html'"><b>Proyectos</b></button>
-        </div>
+        <div class="content">
 
-        <div class="social-icons">
-            <div class="icon">
-                <a href="https://www.instagram.com/dani.m0reno/"><i class="fab fa-instagram"></i></a>
-            </div>
+            <!-- Blog List Start -->
+            <div class="container bg-white pt-5">
 
-            <div class="icon">
-                <a href="https://github.com/DaniM0reno"><i class="fab fa-github"></i></i></a>
-            </div>
+                <div class="row blog-item px-3 pb-5">
+                    <div class="col-md-5 position-relative">
+                        <img class="img-fluid mb-4 mb-md-0 rounded" src="img/telegram.jpg" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                        <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Bot Telegram - CatDetective</h3>
+                        <div class="d-flex mb-3">
+                            <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 11-Oct-2021</small>
+                            <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Python</small>
+                        </div>
+                        <p>
+                            Rastrea las huellas que deja un usuario a través de internet simplemente con el nickname.
+                        </p>
+                        <a class="btn btn-link p-0 stretched-link" href="https://t.me/cat_detective_bot">Acceder <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="row blog-item px-3 pb-5">
+                    <div class="col-md-5 position-relative">
+                        <img class="img-fluid mb-4 mb-md-0 rounded" src="img/telegram.jpg" alt="Image">
+                    </div>
+                    <div class="col-md-7">
+                        <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Bot Telegram - AColor</h3>
+                        <div class="d-flex mb-3">
+                            <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 7-Oct-2021</small>
+                            <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Python</small>
+                        </div>
+                        <p>
+                            Este servicio ofrece la posibilidad de pasar a color tus viejas fotos en blanco y negro.
+                        </p>
+                        <a class="btn btn-link p-0 stretched-link" href="https://t.me/acolor_bot">Acceder <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!--  -->
 
-            <div class="icon">
-                <a href="https://t.me/DaM995"><i class="fab fa-telegram"></i></a>
             </div>
+            <!-- Blog List End -->
+
+
+            <!-- Footer Start -->
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                    &copy; <strong> DaniM0reno</strong>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://github.com/DaniM0reno">Daniel Moreno</a>
+                </p>
+            </div>
+            <!-- Footer End -->
         </div>
     </div>
 
-    <div class="concept">© Copyright
-        <a href="https://github.com/DaniM0reno" target="_blank">
-            DaniM0reno</a>. All Rights Reserved
-    </div>
-    </div>
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
